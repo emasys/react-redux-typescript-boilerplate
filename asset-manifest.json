@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.aade2340.chunk.css",
-    "main.js": "/static/js/main.6315bbb0.chunk.js",
-    "main.js.map": "/static/js/main.6315bbb0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.edf47c17.js",
-    "runtime-main.js.map": "/static/js/runtime-main.edf47c17.js.map",
-    "static/js/2.aeb9040d.chunk.js": "/static/js/2.aeb9040d.chunk.js",
-    "static/js/2.aeb9040d.chunk.js.map": "/static/js/2.aeb9040d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0abbf5baa10b4885f0bc3e52aa51d8c0.js": "/precache-manifest.0abbf5baa10b4885f0bc3e52aa51d8c0.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.aade2340.chunk.css.map": "/static/css/main.aade2340.chunk.css.map",
-    "static/js/2.aeb9040d.chunk.js.LICENSE.txt": "/static/js/2.aeb9040d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-redux-typescript-boilerplate/static/css/main.aade2340.chunk.css",
+    "main.js": "/react-redux-typescript-boilerplate/static/js/main.6cb07f2f.chunk.js",
+    "main.js.map": "/react-redux-typescript-boilerplate/static/js/main.6cb07f2f.chunk.js.map",
+    "runtime-main.js": "/react-redux-typescript-boilerplate/static/js/runtime-main.fb750975.js",
+    "runtime-main.js.map": "/react-redux-typescript-boilerplate/static/js/runtime-main.fb750975.js.map",
+    "static/js/2.aeb9040d.chunk.js": "/react-redux-typescript-boilerplate/static/js/2.aeb9040d.chunk.js",
+    "static/js/2.aeb9040d.chunk.js.map": "/react-redux-typescript-boilerplate/static/js/2.aeb9040d.chunk.js.map",
+    "index.html": "/react-redux-typescript-boilerplate/index.html",
+    "precache-manifest.69e3ce6d7b47cad4964d4a469d1339a3.js": "/react-redux-typescript-boilerplate/precache-manifest.69e3ce6d7b47cad4964d4a469d1339a3.js",
+    "service-worker.js": "/react-redux-typescript-boilerplate/service-worker.js",
+    "static/css/main.aade2340.chunk.css.map": "/react-redux-typescript-boilerplate/static/css/main.aade2340.chunk.css.map",
+    "static/js/2.aeb9040d.chunk.js.LICENSE.txt": "/react-redux-typescript-boilerplate/static/js/2.aeb9040d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-redux-typescript-boilerplate/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.edf47c17.js",
+    "static/js/runtime-main.fb750975.js",
     "static/js/2.aeb9040d.chunk.js",
     "static/css/main.aade2340.chunk.css",
-    "static/js/main.6315bbb0.chunk.js"
+    "static/js/main.6cb07f2f.chunk.js"
   ]
 }
