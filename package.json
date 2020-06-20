@@ -1,7 +1,9 @@
 {
   "name": "react-redux-typescript-boilerplate",
   "version": "0.1.0",
-  "private": false,
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://emasys.github.io/react-redux-typescript-boilerplate",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
