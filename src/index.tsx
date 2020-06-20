@@ -1,12 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { persistStore } from 'redux-persist';
+import { Provider } from 'react-redux';
+
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { PersistGate } from 'redux-persist/integration/react';
+import { initialLogState } from './redux/reducers/logs';
+import { AppState } from './interfaces/common';
+import { initialAbilityState } from './redux/reducers/ability';
+import configureStore from './redux/store';
+import Routes from './Routes';
+
+export const initialState: AppState = {
+  logs: initialLogState,
+  ability: initialAbilityState,
+};
+
+const store = configureStore(initialState);
+
+const persistor = persistStore(store);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <Routes />
+      </PersistGate>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
