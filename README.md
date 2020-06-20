@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## React-Redux Typescript boilerplate
-This is a minimal typescript react-redux set up to get you up and running.
+## React-Redux Typescript template
+This is a minimal typescript react-redux template to get you up and running in 3 mins.
 
 ## Perks
 * axios instance
@@ -20,6 +20,9 @@ This is a minimal typescript react-redux set up to get you up and running.
 ## To run app
 * `yarn install`
 * `yarn start`
+
+## Contribution
+Feel free to raise a PR to improve this template
 
 
 
