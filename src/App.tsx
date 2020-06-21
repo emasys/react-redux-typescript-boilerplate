@@ -50,7 +50,7 @@ function App() {
         >
           Learn React
         </a>
-        <h3>persisted redux state playground</h3>
+        <h3>persisted redux state playground (session storage)</h3>
         <div className='container'>
           <div className='data'>
             <h5>Click on the button to trigger async action</h5>

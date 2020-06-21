@@ -8,9 +8,10 @@ This is a minimal typescript react-redux template to get you up and running in 3
 
 ## Perks
 * axios instance
-* persistent redux store (session storage, this can easily be modified)
+* persistent redux store (session storage, this can be easily modified)
 * sample async/sync action creators
 * sample reducers
+* sample component test
 * sample memoized selectors
 
 ## Notable Dependencies
