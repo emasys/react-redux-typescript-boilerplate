@@ -14,11 +14,10 @@ This is a minimal typescript react-redux template to get you up and running in 3
 * sample memoized selectors
 
 ## Notable Dependencies
-* redux-persist
-* axios
-* connected-react-router
-* reselect
-* typescript
+* [redux-persist](https://www.npmjs.com/package/redux-persist)
+* [react-router](https://www.npmjs.com/package/react-router)
+* [connected-react-router](https://www.npmjs.com/package/connected-react-router)
+* [reselect](https://www.npmjs.com/package/reselect)
 
 ## To run app
 * `yarn install`
