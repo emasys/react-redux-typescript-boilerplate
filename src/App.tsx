@@ -54,7 +54,13 @@ function App() {
         <div className='container'>
           <div className='data'>
             <h5>Click on the button to trigger async action</h5>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+              }}
+            >
               <button
                 disabled={loading}
                 onClick={() => dispatch(fetchAbilities(lLimit, lOffset))}
