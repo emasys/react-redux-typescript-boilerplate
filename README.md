@@ -14,7 +14,7 @@ This is a minimal typescript react-redux template to get you up and running in 3
 * sample memoized selectors
 
 ## Notable Dependencies
-* react-persist
+* redux-persist
 * axios
 * connected-react-router
 * reselect
