@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## React-Redux Typescript template
 This is a minimal typescript react-redux template to get you up and running in 3 mins.
 
+## Demo
+[A simple demo](https://emasys.github.io/react-redux-typescript-boilerplate/).
+
 ## Perks
 * axios instance
 * persistent redux store

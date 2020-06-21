@@ -39,7 +39,6 @@ export function ability(
 ): any {
   switch (action.type) {
     case EActionTypes.FETCH_ABILITY:
-      console.log(action.payload.data, action.payload.data?.offset)
       return {
         ...state,
         ability: action.payload.data?.ability || state.ability,
