@@ -29,10 +29,10 @@ function InputWrapper({ handleChange, value, hint }: Input) {
 
 function App() {
   const dispatch = useDispatch();
-  const logs = useSelector((state: AppState) => getLogs(state));
+  const logs = useSelector(getLogs);
   const { ability, loading, limit, offset } = useSelector((state: AppState) =>
     getAbility(state)
-  );
+  ); // For illustrative purposes
   const [lLimit, setLimit] = useState(limit);
   const [lOffset, setOffset] = useState(offset);
   return (
